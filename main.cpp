@@ -110,6 +110,7 @@ int main()
 		// Print the current grid.
 		printGrid( tttGrid );
 	} while ( victoryCheck( tttGrid ) < 1 );
+	system( "PAUSE" );
 	return 0;
 } // End main().
 
@@ -387,6 +388,6 @@ int victoryCheck( int _graph[] )
 			cout << "There was an error with backslash.";
 		}
 	}
-
+	cout << endl;
 	return winner;
 } // End victoryCheck().
